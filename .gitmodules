@@ -1,0 +1,3 @@
+[submodule "src/mucithane-ksr"]
+	path = src/mucithane-ksr
+	url = https://github.com/abdulmelikbekmez/mucithane-ksr
