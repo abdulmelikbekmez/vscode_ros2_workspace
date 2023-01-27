@@ -30,3 +30,20 @@ You should already have Docker and VSCode with the remote containers plugin inst
 * [docker](https://docs.docker.com/engine/install/)
 * [vscode](https://code.visualstudio.com/)
 * [vscode remote containers plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+## Installation
+
+### Cloning The Repo
+```shell
+git clone -b mucithane --recursive https://github.com/abdulmelikbekmez/vscode_ros2_workspace.git
+```
+
+### Update Repo with Newest Mucithane-ksr package
+```shell
+ git submodule update --remote
+```
+
+or just go to `src/mucithane-ksr` folder and type
+```
+git fetch && git pull
+```
