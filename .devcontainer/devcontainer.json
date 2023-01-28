@@ -17,6 +17,7 @@
 		"--runtime=nvidia"
 	],
 	"containerEnv": {
+		"WORKSPACE": "${containerWorkspaceFolder}",
 		"DISPLAY": "${localEnv:DISPLAY}",
 		"LIBGL_ALWAYS_SOFTWARE": "1" // Needed for software rendering of opengl
 	},

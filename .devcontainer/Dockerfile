@@ -1,4 +1,4 @@
-FROM abdulmelik/mucithane:v-1
+FROM abdulmelik/mucithane:v-1.1
 
 # nvidia-container-runtime
 ENV NVIDIA_VISIBLE_DEVICES \
@@ -6,8 +6,9 @@ ENV NVIDIA_VISIBLE_DEVICES \
 ENV NVIDIA_DRIVER_CAPABILITIES \
         ${NVIDIA_DRIVER_CAPABILITIES:+$NVIDIA_DRIVER_CAPABILITIES,}graphics
 
-# Create the user
-# ARG USER
+ARG USER
+
+ENV USER=${USER}
 # ARG PASS
 # RUN useradd -m $USER && echo "$USER:$PASS" | chpasswd && adduser $USER sudo
 
