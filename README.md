@@ -6,17 +6,9 @@ See [how I develop with vscode and ros2](https://www.allisonthackston.com/articl
 
 ## Features
 
-### Style
-
-ROS2-approved formatters are included in the IDE.  
-
-* **python** autopep8; vscode settings consistent with the [style guide](https://index.ros.org/doc/ros2/Contributing/Code-Style-Language-Versions/)
-
 ### Tasks
 
 There are many pre-defined tasks, see [`.vscode/tasks.json`](.vscode/tasks.json) for a complete listing.  Feel free to adjust them to suit your needs.  
-
-Take a look at [how I develop using tasks](https://www.allisonthackston.com/articles/vscode_tasks.html) for an idea on how I use tasks in my development.
 
 ### Debugging
 
@@ -47,3 +39,8 @@ or just go to `src/mucithane-ksr` folder and type
 ```
 git fetch && git pull
 ```
+
+## Container Credentials
+
+* Username => humble
+* password => ros
