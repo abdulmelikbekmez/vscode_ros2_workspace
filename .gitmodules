@@ -5,7 +5,7 @@
 [submodule "src/crazyswarm2"]
 	path = src/crazyswarm2
 	url = https://github.com/IMRCLab/crazyswarm2
-    branch = master
+	branch = master
 [submodule "src/motion_capture_tracking"]
 	path = src/motion_capture_tracking
 	url = https://github.com/IMRCLab/motion_capture_tracking.git
