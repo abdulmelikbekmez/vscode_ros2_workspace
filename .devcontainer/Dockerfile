@@ -1,4 +1,4 @@
-FROM osrf/ros:humble-desktop-full
+FROM ros:melodic
 
 # nvidia-container-runtime
 ENV NVIDIA_VISIBLE_DEVICES \
