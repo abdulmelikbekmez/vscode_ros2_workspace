@@ -1,7 +1,3 @@
-[submodule "mucithane-ksr"]
-	path = src/mucithane-ksr
-	url = https://github.com/abdulmelikbekmez/mucithane-ksr
-	branch = master
 [submodule "src/crazyswarm2"]
 	path = src/crazyswarm2
 	url = https://github.com/IMRCLab/crazyswarm2
@@ -10,3 +6,6 @@
 	path = src/motion_capture_tracking
 	url = https://github.com/IMRCLab/motion_capture_tracking.git
 	branch = ros2
+[submodule "src/mucithane"]
+	path = src/mucithane
+	url = https://github.com/abdulmelikbekmez/mucithane-ksr
