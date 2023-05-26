@@ -4,7 +4,7 @@
 	"build": {
 		"args": {
 			"WORKSPACE": "${containerWorkspaceFolder}",
-			"USER": "melodic",
+			"USER": "noetic",
 			"PASS": "ros"
 		}
 	},

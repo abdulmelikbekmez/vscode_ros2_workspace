@@ -1,4 +1,7 @@
 build/
 install/
+devel/
 log/
 site/
+src/
+.catkin_workspace
